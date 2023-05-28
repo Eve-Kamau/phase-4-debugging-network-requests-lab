@@ -63,11 +63,28 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+ <!-- 
+ Check config/routes.db for list of routes - found create route available
+ Check controller - found index, create methods available 
+ The create route not rendering - amended the Class name was pluralized not singled 
+ Done!
+ -->
 
 - Update the number of likes for a toy
 
   - How I debugged:
+<!--  
+Check controller - found update method available 
+There was no render json to update the number of likes    
+(render json: toy, status: :created)
+Done!
+ -->
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  <!-- 
+  Checked config/routes.db for list of routes
+  Added destroy action to routes.rb 
+  Done!
+  -->
